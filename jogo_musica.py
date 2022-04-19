@@ -9,11 +9,11 @@ question = ["Uma música com uma cor no título", "Uma música com um número no
 file1 = open('sfuck.txt', 'r', encoding='utf-8')
 Lines = file1.readlines()
  
-count = 0
+# count = 0
 # Strips the newline character
-for line in Lines:
-    count += 1
-    print("Line{}: {}".format(count, line.strip()))
+# for line in Lines:
+#     count += 1
+#     print("Line{}: {}".format(count, line.strip()))
 
 usadas = []
 prompt = "R: rerola | N: next | Q: quit -> "
